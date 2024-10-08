@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="">
+    <style>
+      
+     
+    .tool{
+        border-width: 2px;
+        border-style:solid ;
+        border-color: aqua;
+        background-color: blue;
+    }
+    .tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 2px dotted black;
+    margin-top: 200px;
+   
+}
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: red;
+    color: #070707;
+    text-align: center;
+    border-radius: 6px;
+    padding: 9px ;
+    position: absolute;
+    margin-left: -80px;
+    margin-top: -50px;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+    </style>
+</head>
+<body style="text-align: center;">
+    <div class="tooltip">
+        <!-- <h1>TOOLTIP</h1> -->
+        <form action="">
+            <label for="" class="tool"><b>Tooltip:</b></label>
+            <input type="text" placeholder="click here">
+            <span class="tooltiptext">this is tooltip task</span><br><br>
+
+        </form>
+
+    </div>
+
+
+    
+</body>
+</html>
